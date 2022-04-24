@@ -1,0 +1,50 @@
+{
+  "name": "SkullsPixels",
+  "version": "1.0.0",
+  "description": "art creator, developing projects in cryptoart (nfts)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skullspixels/skullspixels.git"
+  },
+  "keywords": [
+    "svelte",
+    "sveltejs",
+    "javascript"
+  ],
+  "author": "Oscar Barajas <oscar@arepa.dev>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skullspixels/skullspixels/issues"
+  },
+  "homepage": "https://github.com/skullspixels/skullspixels#readme",
+  "dependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "svelte": "^3.20.1",
+    "webpack-md5-hash": "0.0.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/polyfill": "^7.8.7",
+    "@babel/preset-env": "^7.9.0",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
+    "font-face": "^2.3.4",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^7.0.1",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "svelte-loader": "^2.13.6",
+    "ts-loader": "^9.2.8",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}

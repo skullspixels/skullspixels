@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "SkullphabetOne";
+    src: url("../../public/fonts/SkullphabetOne.woff") format("woff"),
+      /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+        url("../../public/fonts/SkullphabetOne.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+  }
+  
+  body {
+    height: 100vh;
+    font-size: 1rem;
+  
+    main {
+      display: grid;
+      place-items: center;
+      height: 100vh;
+      text-align: center;
+    }
+    *{
+      margin:0 0 !important;
+      padding:0 0 !important;
+      list-style: none;
+    }
+    .logo{
+      font-family: "SkullphabetOne";
+      font-size: 128px;
+      background: -webkit-linear-gradient(#ff9100, rgb(63, 18, 0));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+  
