@@ -15,3 +15,7 @@ npm install clean-webpack-plugin
 npm install --save-dev css-loader ts-loader
 
 npm install file-loader --save-dev
+
+npm install -D svelte-preprocess
+
+npm i -D svelte-dark-mode
